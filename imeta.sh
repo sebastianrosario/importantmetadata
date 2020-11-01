@@ -28,7 +28,7 @@ if exiftool $1 | grep -E '^\bCamera\b|\bMake\b'
 	then
 		echo ''
 	else
-		echo -e $'NO CAMERA MODEL DATE FOUND\n'
+		echo -e 'NO CAMERA MODEL DATE FOUND\n'
 fi
 
 
